@@ -3,7 +3,7 @@ MAINTAINER HFM <haniffm@kth.se>
 
 
 RUN apk --update add curl ca-certificates
-ENV TOMCAT_VERSION=7.0.67
+ENV TOMCAT_VERSION=7.0.68
 
 RUN curl \
   --silent \
@@ -26,4 +26,3 @@ EXPOSE 8080
 
 # Launch Tomcat on startup
 CMD ${CATALINA_HOME}/bin/catalina.sh run
-
