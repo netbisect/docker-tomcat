@@ -1,10 +1,10 @@
 # docker-tomcat
-Minimal (118.3 MB) Docker image with tomcat.
+Minimal (118.5 MB) Docker image with tomcat.
 
 ### Try it
 Run like this:
 
-`docker run --rm --name=myTomcatTest -p 10080:8080 netbisect/tomcat:8.0.32-jre8`
+`docker run --rm --name=myTomcatTest -p 10080:8080 netbisect/tomcat:9.0.0.M3-jre8`
 
 Copy your war file into the container (just for testing):
 
@@ -17,4 +17,4 @@ Then navigate to:
 
 ### Build it on your own
 * Clone the repo
-* run `docker build -t netbisect/tomcat:8.0.32-jre8 .` in its root folder.
+* run `docker build -t netbisect/tomcat:9.0.0.M3-jre8 .` in its root folder.
