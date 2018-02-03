@@ -1,4 +1,4 @@
-FROM netbisect/java:alpine-3.7-jre-8.151.12-r0
+FROM netbisect/java:jre-8.151.12-r0
 MAINTAINER HFM <haniffm@kth.se>
 
 
