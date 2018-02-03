@@ -1,4 +1,4 @@
-FROM netbisect/java:jre-8
+FROM netbisect/java:jre-8.151.12-r0
 MAINTAINER HFM <haniffm@kth.se>
 
 
