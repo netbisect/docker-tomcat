@@ -1,5 +1,5 @@
 # docker-tomcat
-Minimal (118 MB) Docker image with tomcat.
+Minimal (92.3 MB) Docker image with tomcat.
 
 ### Try it
 Run like this:
